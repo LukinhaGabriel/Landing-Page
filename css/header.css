@@ -1,0 +1,35 @@
+.cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+
+.logo-menu{
+    height: 72px;
+    border-radius: 50px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item{
+    color: #131215;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.menu-item:hover{
+    color: #FF5021;
+    border-bottom: 1px solid #FF5021;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 600px){
+    .cabecalho-menu{
+        display: none;
+    }
+}
