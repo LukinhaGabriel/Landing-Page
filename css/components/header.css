@@ -11,7 +11,7 @@
     border-radius: 50px;
 }
 
-.cabecalho-menu{
+.cabecalho-menu, .icon-list{
     display: flex;
     gap: 32px;
 }
@@ -28,8 +28,3 @@
     padding-bottom: 5px;
 }
 
-@media (max-width: 600px){
-    .cabecalho-menu{
-        display: none;
-    }
-}

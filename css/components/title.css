@@ -1,0 +1,16 @@
+.title, .title-contact{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    
+}
+
+.title{
+    color: #131215;
+}
+
+.title-contact{
+    color:#fff;
+}
+
+

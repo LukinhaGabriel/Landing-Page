@@ -1,0 +1,15 @@
+.paragraph, .paragraph-contact{
+    width: 650px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 35px;
+    font-size: 1.125rem;
+}
+.paragraph{
+    color: #131215;
+}
+
+.paragraph-contact{
+    color: #fff;
+}
+
+

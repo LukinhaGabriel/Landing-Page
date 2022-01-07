@@ -1,0 +1,88 @@
+#content-contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF5021;
+    padding: 6rem;
+    
+}
+
+.box-contact-title{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form{
+    background-color: #f1f2f6;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 25px;
+}
+
+.field-box{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #131215;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    padding: 0.75rem;
+    border: 1px solid #131215;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+input:hover, textarea:hover{
+    border: 1px solid #FF5021;
+}
+
+.field-box-radio{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.social-networks{
+    color: #fff;
+    font-size: 25px;
+}
+
+.social-networks:hover{
+    color: black;
+}
+
+.mensagem-box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#mensagem{
+   border-radius: 0;
+}
+
+
+
+
+
+
