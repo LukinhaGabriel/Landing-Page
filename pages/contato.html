@@ -29,12 +29,17 @@
 <body>
     <header class="cabecalho">
         <a href="/index.html"><img class="logo-menu" src="/img/logo.png" alt="Logo Lukinha Gabriel Moya com fundo laranja"></a>
-        <nav class="cabecalho-menu">
-            <a class="menu-item" href="/index.html">Home</a>
-            <a class="menu-item" href="#">Portfólio</a>
-            <a class="menu-item" target="_blank" href="https://www.instagram.com/_lukinha.gabriel_/">Instagram</a>
-            <a class="menu-item" target="_blank" href="https://github.com/LukinhaGabriel">Github</a>
-            <a class="menu-item" href="contato.html">Contato</a>
+        <nav id='nav'>
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu" class="cabecalho-menu" role="menu">
+                <a class="menu-item" href="/index.html">Home</a>
+                <a class="menu-item" href="#">Portfólio</a>
+                <a class="menu-item" target="_blank" href="https://www.instagram.com/_lukinha.gabriel_/">Instagram</a>
+                <a class="menu-item" target="_blank" href="https://github.com/LukinhaGabriel">Github</a>
+                <a class="menu-item" href="contato.html">Contato</a>
+            </ul>
         </nav>
     </header>
     <main id="content-contact">
@@ -90,5 +95,8 @@
     <footer class="rodape">
         <a href="https://lucasgabrielmoya-nu.vercel.app/" target="_blank"><img class="rodape-imagem" src="/img/logo-footer.png" alt="Logo Lukinha Gabriel Moya sen fundo"></a>
     </footer>
+
+
+    <script src="/script/main.js"></script>
 </body>
 </html>

@@ -20,4 +20,7 @@ body{
     /* background-color: #FFFF; */
 }
 
+#btn-mobile{
+  display: none;
+}
 
